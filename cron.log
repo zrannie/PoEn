@@ -1,0 +1,129 @@
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 70, in <module>
+    main()
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 61, in main
+    events = get_todays_events(service)
+NameError: name 'service' is not defined
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 7, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 4, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 2, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 12, in <module>
+    if os.path.exists('token.pickle'):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "/users/az/Projects/PoEn/positive_calendar_event.py", line 26, in <module>
+    flow = InstalledAppFlow.from_client_secrets_file(
+  File "/Users/az/anaconda3/lib/python3.8/site-packages/google_auth_oauthlib/flow.py", line 198, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 30, in <module>
+    flow = InstalledAppFlow.from_client_secrets_file(
+  File "/Users/az/anaconda3/lib/python3.8/site-packages/google_auth_oauthlib/flow.py", line 198, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 35, in <module>
+    flow = InstalledAppFlow.from_client_secrets_file(
+  File "/Users/az/anaconda3/lib/python3.8/site-packages/google_auth_oauthlib/flow.py", line 198, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=741493339970-eb6p3pdb8t5trnn2icsrj2ojm2iq49gh.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A58850%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar&state=SWUFSVmy1VDWDsWYyngauVNcdTsevh&access_type=offline
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 108, in <module>
+    main()
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 104, in main
+    positive_message = generate_positive_message(prompt)
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 64, in generate_positive_message
+    response = openai.Completion.create(
+AttributeError: module 'openai' has no attribute 'Completion'
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 108, in <module>
+    main()
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 104, in main
+    positive_message = generate_positive_message(prompt)
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 64, in generate_positive_message
+    response = openai.Completion.create(
+AttributeError: module 'openai' has no attribute 'Completion'
+['APIConnectionError', 'APIError', 'APIResponseValidationError', 'APIStatusError', 'APITimeoutError', 'AsyncAzureOpenAI', 'AsyncClient', 'AsyncOpenAI', 'AsyncStream', 'AuthenticationError', 'AzureOpenAI', 'BadRequestError', 'Client', 'ConflictError', 'DEFAULT_MAX_RETRIES', 'DEFAULT_TIMEOUT', 'InternalServerError', 'NoneType', 'NotFoundError', 'OpenAI', 'OpenAIError', 'PermissionDeniedError', 'ProxiesTypes', 'RateLimitError', 'RequestOptions', 'Stream', 'Timeout', 'Transport', 'UnprocessableEntityError', 'VERSION', '_AmbiguousModuleClientUsageError', '_ApiType', '_AzureModuleClient', '_ModuleClient', '__all__', '__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__locals', '__name', '__name__', '__package__', '__path__', '__spec__', '__title__', '__version__', '_azure', '_base_client', '_client', '_compat', '_constants', '_exceptions', '_extras', '_files', '_has_azure_ad_credentials', '_has_azure_credentials', '_has_openai_credentials', '_httpx', '_load_client', '_models', '_module_client', '_os', '_qs', '_reset_client', '_resource', '_response', '_setup_logging', '_streaming', '_t', '_te', '_types', '_utils', '_version', 'annotations', 'api_key', 'api_type', 'api_version', 'audio', 'azure_ad_token', 'azure_ad_token_provider', 'azure_endpoint', 'base_url', 'beta', 'chat', 'completions', 'default_headers', 'default_query', 'edits', 'embeddings', 'file_from_path', 'files', 'fine_tunes', 'fine_tuning', 'http_client', 'images', 'lib', 'max_retries', 'models', 'moderations', 'organization', 'override', 'pagination', 'resources', 'timeout', 'types', 'version']
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 109, in <module>
+    main()
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 105, in main
+    positive_message = generate_positive_message(prompt)
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 65, in generate_positive_message
+    response = openai.Completion.create(
+AttributeError: module 'openai' has no attribute 'Completion'
+['APIConnectionError', 'APIError', 'APIResponseValidationError', 'APIStatusError', 'APITimeoutError', 'AsyncAzureOpenAI', 'AsyncClient', 'AsyncOpenAI', 'AsyncStream', 'AuthenticationError', 'AzureOpenAI', 'BadRequestError', 'Client', 'ConflictError', 'DEFAULT_MAX_RETRIES', 'DEFAULT_TIMEOUT', 'InternalServerError', 'NoneType', 'NotFoundError', 'OpenAI', 'OpenAIError', 'PermissionDeniedError', 'ProxiesTypes', 'RateLimitError', 'RequestOptions', 'Stream', 'Timeout', 'Transport', 'UnprocessableEntityError', 'VERSION', '_AmbiguousModuleClientUsageError', '_ApiType', '_AzureModuleClient', '_ModuleClient', '__all__', '__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__locals', '__name', '__name__', '__package__', '__path__', '__spec__', '__title__', '__version__', '_azure', '_base_client', '_client', '_compat', '_constants', '_exceptions', '_extras', '_files', '_has_azure_ad_credentials', '_has_azure_credentials', '_has_openai_credentials', '_httpx', '_load_client', '_models', '_module_client', '_os', '_qs', '_reset_client', '_resource', '_response', '_setup_logging', '_streaming', '_t', '_te', '_types', '_utils', '_version', 'annotations', 'api_key', 'api_type', 'api_version', 'audio', 'azure_ad_token', 'azure_ad_token_provider', 'azure_endpoint', 'base_url', 'beta', 'chat', 'completions', 'default_headers', 'default_query', 'edits', 'embeddings', 'file_from_path', 'files', 'fine_tunes', 'fine_tuning', 'http_client', 'images', 'lib', 'max_retries', 'models', 'moderations', 'organization', 'override', 'pagination', 'resources', 'timeout', 'types', 'version']
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 65, in <module>
+    client = OpenAI()
+  File "/Users/az/anaconda3/lib/python3.8/site-packages/openai/_client.py", line 93, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 110, in <module>
+    main()
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 106, in main
+    positive_message = generate_positive_message(prompt)
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 66, in generate_positive_message
+    response = openai.ChatCompletion.create(
+AttributeError: module 'openai' has no attribute 'ChatCompletion'
+Traceback (most recent call last):
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 110, in <module>
+    main()
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 106, in main
+    positive_message = generate_positive_message(prompt)
+  File "/Users/az/Projects/PoEn/positive_calendar_event.py", line 66, in generate_positive_message
+    response = openai.completions.create(
+  File "/Users/az/anaconda3/lib/python3.8/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    raise TypeError(msg)
+TypeError: Missing required arguments; Expected either ('model' and 'prompt') or ('model', 'prompt' and 'stream') arguments to be given
+Event created: https://www.google.com/calendar/event?eid=NHZ1ZjNjZ3V0dXNyaHY5dmwxMWI0Z3JucDggYW5uaWUuenI2QG0
+Event created: https://www.google.com/calendar/event?eid=cHZjZnN0N2Vudm50MmVlMDA2YmtnZzhkbzggYW5uaWUuenI2QG0
