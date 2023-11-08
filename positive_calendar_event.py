@@ -41,7 +41,7 @@ if not creds or not creds.valid:
         pickle.dump(creds, token)
 service = build('calendar', 'v3', credentials=creds)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR_KEY'
 
 def get_todays_events(service):
     # Call the Calendar API to fetch events
